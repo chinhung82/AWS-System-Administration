@@ -41,8 +41,7 @@ server = internal DNS name of master //ip-x-x-x-x.us-east-2.compute.internal
 # initiating client on puppet-client waiting puppet master to sisn cert
 $ sudo puppet agent --waitforcert 120 --test
 
-# ssh to puppet-master
-$ list client cert
+# ssh to puppet-master, list client cert
 $ sudo puppet cet list
 
 # at puppet-maseter, sign client cert
